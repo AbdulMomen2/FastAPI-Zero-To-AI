@@ -1,0 +1,127 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+downloads/
+wheels/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+ENV/
+*.log
+*.pot
+*.mo
+
+# Virtual environment files
+.Python
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+# Usually contains temp files during packaging
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# mypy / pytype / pyright
+.mypy_cache/
+.pytype/
+pyrightconfig.json
+
+# Django / Flask / FastAPI / general API
+*.db
+*.sqlite3
+instance/
+*.pid
+*.sock
+*.log
+.env
+.env.*
+.envrc
+*.pem
+secrets.json
+
+# ------------------------
+# Docker
+# ------------------------
+# Docker build and runtime files
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+# Ignore local Docker data
+.docker/
+**/docker-data/
+# Ignore build context artifacts
+**/tmp/
+**/cache/
+**/logs/
+
+# ------------------------
+# IDEs & Editors
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ------------------------
+# API Management (APIM)
+# ------------------------
+# API schema or generated client code
+openapi.json
+swagger.json
+swagger.yaml
+# Generated API docs
+docs/_build/
+# Temporary auth or token files
+*.token
+*.key
+*.crt
+*.csr
+
+# ------------------------
+# Miscellaneous
+# ------------------------
+# System files
+.DS_Store
+ehthumbs.db
+Icon?
+# Local test data
+data/
+*.tmp
+*.bak
+*.old
