@@ -18,6 +18,7 @@ downloads/
 wheels/
 pip-wheel-metadata/
 .venv/
+.env/
 venv/
 env/
 ENV/
