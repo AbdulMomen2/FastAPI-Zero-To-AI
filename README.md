@@ -1,5 +1,4 @@
-# 🚀 FastAPI — Zero to Production Grade  
-A complete, practical series where we build FastAPI applications from absolute zero to full production deployment.
+This repo is a complete, practical series where we build FastAPI applications from absolute zero to full production deployment.
 
 This repository is organized as a step-by-step journey, starting with the basics and gradually advancing into real-world, scalable development patterns.
 
